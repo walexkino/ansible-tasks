@@ -1,0 +1,10 @@
+{
+    "yaml.schemas": {
+        "./schemas/circle-ci.json": [
+            ".github/workflows/**/*.yaml",
+            "."
+        ],
+        "file:///c%3A/Users/walexkino/.vscode/extensions/atlassian.atlascode-2.10.12/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml",
+        "https://raw.githubusercontent.com/ansible-community/schemas/main/f/ansible.json#/$defs/playbook": "file:///c%3A/Users/walexkino/Documents/DEVOPS-2022/aws_udacity_learn/ansible/main.yml"
+    }
+}
