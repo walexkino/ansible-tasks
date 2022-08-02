@@ -5,4 +5,4 @@
 
  - name: print message #i
    debug:
-     msg: "{{ print_result.stdout_lines }}" # here we print out the env. variable of the files path
+     msg: "{{ print_result }}" # here we print out the env. variable of the files path
