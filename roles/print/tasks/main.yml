@@ -5,4 +5,10 @@
 
  - name: print message #i
    debug:
-     msg: "{{ print_result }}" # here we print out the env. variable of the files path
+     msg: "{{ print_result.stdout_lines }}" # here we print out the env. variable of the files path for stdout_lines, if you remove this 
+     # section then you have what is displayed below >>
+
+      # "stdout": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin",
+      
+      #   "stdout_lines": [
+      #       "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
