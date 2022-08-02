@@ -1,8 +1,8 @@
 ---
- - name: Print env variable
-   shell: echo $PATH
-   register: print_result
+ - name: Print env variable #name description 
+   shell: echo $PATH  #shel commans
+   register: print_result #what this does is to register the result for the shell script
 
- - name: print message
+ - name: print message #i
    debug:
-     msg: "{{ print_result.stdout_lines }}"
+     msg: "{{ print_result.stdout_lines }}" # here we print out the env. variable of the files path

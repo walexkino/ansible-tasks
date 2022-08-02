@@ -1,5 +1,5 @@
 ---
-- name: Exercise #1
+- name: Exercise #1 - done
   hosts: localhost
 
   roles:
