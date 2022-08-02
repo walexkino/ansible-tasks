@@ -3,4 +3,4 @@
   hosts: localhost
 
   roles:
-   - prin
+   - print #this automatically looks for the role tree that indicates the playbook inventory  for that file path print
