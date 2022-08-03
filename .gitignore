@@ -1,2 +1,2 @@
 # adding aws keypair files with .pem extension that resides on my machine
-*.pem 
+*.p
