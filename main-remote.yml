@@ -8,5 +8,5 @@
   become: true
   become_method: sudo
   become_user: root
-  roles:
+  roles: #so this runs everything inside the roles named setup so you dont need to be specifying the tasks as it encapsules everything
     - setup
