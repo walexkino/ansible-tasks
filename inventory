@@ -1,3 +1,4 @@
 [all]
-107.23.244.108 #this is the public IP of the ec2 instance
-54.172.31.254
+ec2-54-172-31-254.compute-1.amazonaws.com # i placed the Public IP DNS instead on IP cause the IP changes after EC2 restart
+# 107.23.244.108 #this is the public IP of the ec2 instance
+# 54.172.31.254
